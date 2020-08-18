@@ -1,0 +1,25 @@
+{
+  "name": "netlify-lambda-function",
+  "version": "1.0.0",
+  "description": "learning about netlify's lambda function",
+  "main": "index.js",
+  "scripts": {
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build:lambda": "netlify-lambda build src/lambda"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tadomikikuto-bit/netlify-lambda-function.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tadomikikuto-bit/netlify-lambda-function/issues"
+  },
+  "homepage": "https://github.com/tadomikikuto-bit/netlify-lambda-function#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "netlify-lambda": "^2.0.1"
+  }
+}
